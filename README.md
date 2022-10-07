@@ -1,0 +1,1 @@
+This project will be using HTML5, CSS3, and including Flexbox in order to create a mock landing page for a would-be website. Enjoy!
