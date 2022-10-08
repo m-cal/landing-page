@@ -1,3 +1,32 @@
 * {
-  background-color: honeydew;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.header {
+  height: 75px;
+  border: black 3px solid;
+  display: flex;
+  gap: 16px;
+  background-color: #1f2937;
+  align-items: center;
+  color: #fbfcfc;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.footer {
+  height: 75px;
+  border: black 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #fbfcfc;
 }
