@@ -5,6 +5,7 @@
 
 body {
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .header {
@@ -16,6 +17,32 @@ body {
   align-items: center;
   color: #fbfcfc;
 }
+
+.first-fourth {
+  display: flex;
+  background-color: #1f2937;
+  color: #fbfcfc;
+  align-items: center;
+}
+
+.first-fourth .right-content {
+ display: flex; 
+ justify-content: center;
+ flex-grow: 1;
+}
+
+.first-fourth .right-content img{ 
+  max-width: 55%;
+  padding: 50px;
+  object-fit: scale-down;
+}
+
+.second-fourth {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 .push-right {
   margin-left: auto;
