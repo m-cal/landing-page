@@ -182,6 +182,10 @@ body {
   color: #dee3eb;
 }
 
+.fourth-fourth .text-part {
+  margin-right: 50px;
+}
+
 .footer {
   height: 75px;
   border: black 3px solid;
