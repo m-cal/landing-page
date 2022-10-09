@@ -17,6 +17,17 @@ body {
   color: #fbfcfc;
 }
 
+.header .logo {
+  font-size: 24px;
+  color: #E5E7EB;
+  font-weight: bold;
+}
+
+.header .header-link {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 .push-right {
   margin-left: auto;
 }
@@ -29,6 +40,17 @@ body {
   align-items: center;
   flex-grow: 1;
   max-height: 400px;
+}
+
+.first-fourth .left-content h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.first-fourth .left-content p {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .first-fourth .right-content {
@@ -47,6 +69,11 @@ body {
 .second-fourth {
   text-align: center;
   flex-grow: 1;
+}
+
+.second-fourth h1 {
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .rando-info-container {
