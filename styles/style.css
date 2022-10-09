@@ -21,6 +21,7 @@ body {
   font-size: 24px;
   color: #E5E7EB;
   font-weight: bold;
+  margin-left: 8.5%;
 }
 
 .header .header-link {
@@ -30,6 +31,10 @@ body {
 
 .push-right {
   margin-left: auto;
+}
+
+.push-left {
+  margin-right: 10%;
 }
 
 
@@ -46,17 +51,29 @@ body {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+  margin-left: 15%;
 }
 
 .first-fourth .left-content p {
   font-size: 18px;
   color: #E5E7EB;
+  margin-left: 15%;
 }
 
 .first-fourth .right-content {
  display: flex; 
  justify-content: center;
  flex-grow: 1;
+ margin-bottom: 30px;
+}
+
+.first-fourth .left-content button {
+  margin-left: 15%;
+  padding: 5px 25px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bolder;
 }
 
 .first-fourth .right-content img{ 
@@ -125,9 +142,45 @@ body {
 }
 
 .fourth-fourth {
+  display: flex;
   flex-grow: 1;
 }
 
+.fourth-fourth .blue-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  color: white;
+  width: 69%;
+  height: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.fourth-fourth .blue-part button {
+  display: flex;
+  margin-left: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bolder;
+  width: 100px;
+  height: 30px;
+}
+
+.fourth-fourth .blue-part h4 {
+  margin-bottom: 0;
+}
+
+.fourth-fourth .blue-part p {
+  margin-top: 0;
+  font-size: 12px;
+  color: #dee3eb;
+}
 
 .footer {
   height: 75px;
@@ -137,8 +190,4 @@ body {
   align-items: center;
   background-color: #1f2937;
   color: #fbfcfc;
-}
-
-body .footer {
-  
 }
