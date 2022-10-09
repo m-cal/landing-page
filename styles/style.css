@@ -110,6 +110,20 @@ body {
   flex-grow: 1;
 }
 
+.third-fourth .quote-content {
+  font-size: 36px;
+  font-style: italic;
+  margin: 50px 200px 25px 200px;
+}
+
+.third-fourth .quote-author {
+  display: flex;
+  font-weight: 1000;
+  justify-content: flex-end;
+  margin-right: 25%;
+  margin-top: 0;
+}
+
 .fourth-fourth {
   flex-grow: 1;
 }
